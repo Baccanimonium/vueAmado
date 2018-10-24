@@ -1,44 +1,145 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <div></div>
-    <!--<input type="text" >-->
-    <button v-on:click="click">click me</button>
-    <button v-on:click="a = !a">{{ a ? 'hide' : 'show'}}</button>
-    {{ count }}
-    <HelloWorld msg="asdasd" v-if="a"/>
-    <Button  msg="aaa1"/>
-    <Button msg="aaa2"/>
-    <input type="text" v-on:change="changeInputValue">
-    <div>{{ str }}</div>
 
+  <!-- Search Wrapper Area End -->
 
-    <div v-for="item in massiv" :key="item.title">
-      <!--повториться столько раз, сколько у тебя элементов в массиве-->
-      <div>{{ item.title }}</div>
+    <!-- ##### Main Content Wrapper Start ##### -->
+    <div class="main-content-wrapper d-flex clearfix">
+
+      <!-- Mobile Nav (max width 767px)-->
+
+      <!-- Header Area End -->
+
+      <!-- Product Catagories Area Start -->
+      <div class="products-catagories-area clearfix">
+        <div class="amado-pro-catagory clearfix">
+
+          <!-- Single Catagory -->
+          <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+              <img src="img/bg-img/1.jpg" alt="">
+              <!-- Hover Content -->
+              <div class="hover-content">
+                <div class="line"></div>
+                <p>From $180</p>
+                <h4>Modern Chair</h4>
+              </div>
+            </a>
+          </div>
+
+          <!-- Single Catagory -->
+          <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+              <img src="img/bg-img/2.jpg" alt="">
+              <!-- Hover Content -->
+              <div class="hover-content">
+                <div class="line"></div>
+                <p>From $180</p>
+                <h4>Minimalistic Plant Pot</h4>
+              </div>
+            </a>
+          </div>
+
+          <!-- Single Catagory -->
+          <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+              <img src="img/bg-img/3.jpg" alt="">
+              <!-- Hover Content -->
+              <div class="hover-content">
+                <div class="line"></div>
+                <p>From $180</p>
+                <h4>Modern Chair</h4>
+              </div>
+            </a>
+          </div>
+
+          <!-- Single Catagory -->
+          <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+              <img src="img/bg-img/4.jpg" alt="">
+              <!-- Hover Content -->
+              <div class="hover-content">
+                <div class="line"></div>
+                <p>From $180</p>
+                <h4>Night Stand</h4>
+              </div>
+            </a>
+          </div>
+
+          <!-- Single Catagory -->
+          <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+              <img src="img/bg-img/5.jpg" alt="">
+              <!-- Hover Content -->
+              <div class="hover-content">
+                <div class="line"></div>
+                <p>From $18</p>
+                <h4>Plant Pot</h4>
+              </div>
+            </a>
+          </div>
+
+          <!-- Single Catagory -->
+          <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+              <img src="img/bg-img/6.jpg" alt="">
+              <!-- Hover Content -->
+              <div class="hover-content">
+                <div class="line"></div>
+                <p>From $320</p>
+                <h4>Small Table</h4>
+              </div>
+            </a>
+          </div>
+
+          <!-- Single Catagory -->
+          <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+              <img src="img/bg-img/7.jpg" alt="">
+              <!-- Hover Content -->
+              <div class="hover-content">
+                <div class="line"></div>
+                <p>From $318</p>
+                <h4>Metallic Chair</h4>
+              </div>
+            </a>
+          </div>
+
+          <!-- Single Catagory -->
+          <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+              <img src="img/bg-img/8.jpg" alt="">
+              <!-- Hover Content -->
+              <div class="hover-content">
+                <div class="line"></div>
+                <p>From $318</p>
+                <h4>Modern Rocking Chair</h4>
+              </div>
+            </a>
+          </div>
+
+          <!-- Single Catagory -->
+          <div class="single-products-catagory clearfix">
+            <a href="shop.html">
+              <img src="img/bg-img/9.jpg" alt="">
+              <!-- Hover Content -->
+              <div class="hover-content">
+                <div class="line"></div>
+                <p>From $318</p>
+                <h4>Home Deco</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Product Catagories Area End -->
     </div>
-    <List />
+    <!-- ##### Main Content Wrapper End ##### -->
 
+    <!-- ##### Newsletter Area Start ##### -->
+    <!-- ##### Newsletter Area End ##### -->
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <!--отправляем значение в хранилище при клике-->
-    <button v-on:click="increment">increment</button>
-    <!--выводим значния из хранилища-->
-    {{this.counter}}
-    <br>
-    <br>
-    <br>
-    <!--&lt;!&ndash;сохраняем локальную сумму при изменении, указываем, что значения input зависят на-->
-    <!--прямую от локальной суммы(моментально при изменении сохраняем новое значение в локальнуюСумму и выводим в input&ndash;&gt;-->
-    <input type="text" v-on:change="changeLocalSumm" v-model="localSumm">
-    <!--отправляем значение в хранилище при клике-->
-    <button v-on:click="sumbmitSumm">submit new summ</button>
-    <!--выводим значния из хранилища-->
-
-    <div>{{ this.summ }}</div>
+    <!-- ##### Footer Area Start ##### -->
   </div>
 </template>
 
