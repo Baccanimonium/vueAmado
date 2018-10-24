@@ -1,12 +1,29 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <SearchBar />
+    <div>
+        <Sidebar />
+        <router-view/>
     </div>
-    <router-view/>
+    <Promo />
+    <Footer />
   </div>
 </template>
+
+
+<script>
+import Footer from './Layout/Footer.vue';
+import SideBar from './Layout/SideBar.vue';
+import Promo from './Layout/Promo.vue';
+import SearchBar from './Layout/SearchBar.vue';
+
+export default {
+  components: {
+    Footer, SideBar, Promo, SearchBar,
+  },
+};
+</script>
+
 
 <style lang="scss">
 #app {
