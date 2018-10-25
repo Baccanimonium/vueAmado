@@ -12,10 +12,10 @@
 
 
 <script>
-import Footer from './Layout/Footer.vue';
+import Footer from './Layout/Footer/Footer.vue';
 import SideBar from './Layout/SideBar.vue';
 import Promo from './Layout/Promo.vue';
-import SearchBar from './Layout/SearchBar.vue';
+import SearchBar from './Layout/SearchBar/SearchBar.vue';
 
 export default {
   components: {
