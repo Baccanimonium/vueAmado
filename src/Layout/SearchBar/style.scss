@@ -2,14 +2,12 @@
   position: fixed;
   width: 100%;
   height: 260px;
-  z-index: 5000;
+  z-index: 10;
   top: -350px;
   left: 0;
   background-color: #f5f7fa;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .active {
   top: 0;
@@ -26,6 +24,7 @@
   line-height: 40px;
   font-size: 12px;
   cursor: pointer;
+  z-index: 2;
   background-color: #fbb710;
   &:hover {
     background-color: #131212;
@@ -36,6 +35,7 @@
   position: relative;
   z-index: 1;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.075);
+  padding: 100px 10%;
 }
 
 .search-input {

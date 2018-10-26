@@ -1,0 +1,89 @@
+.header-area {
+  transition-duration: 500ms;
+  position: relative;
+  z-index: 1;
+  width: 320px;
+  max-width: 320px;
+  background-color: #fff;
+  padding: 60px 75px;
+}
+
+.logo {
+  margin-bottom: 100px;
+  display: block;
+}
+
+.amado-nav {
+  text-align: left;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  padding: 20px 0;
+  display: block;
+  line-height: 0.9;
+  color: #131212;
+  :after {
+    transition-duration: 500ms;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    left: -150px;
+    margin-top: -1.5px;
+    background-color: #fbb710;
+    z-index: 10;
+    content: '';
+  }
+  :hover {
+    color: #fbb710;
+    &:after {
+      left: -75px;
+    }
+  }
+}
+.active-router {
+  color: #fbb710;
+  &:after {
+    left: -75px;
+  }
+}
+
+
+.amado-btn-group {
+  margin: 30px 0 100px;
+}
+.amado-btn {
+  width: 160px;
+  display: block;
+  min-width: 160px;
+  height: 55px;
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+  padding: 0 7px;
+  font-size: 18px;
+  line-height: 56px;
+  background-color: #fbb710;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.cart-fav-search {
+  margin-bottom: 100px;
+}
+.cart-nav {
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 15px 0;
+  color: #131212;
+  line-height: 1;
+}
+.social-info {
+  display: flex;
+  justify-content: space-between;
+}

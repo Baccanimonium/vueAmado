@@ -2,7 +2,7 @@
   <div id="app">
     <SearchBar />
     <div>
-        <Sidebar />
+        <SideBar />
         <router-view/>
     </div>
     <Promo />
@@ -13,7 +13,7 @@
 
 <script>
 import Footer from './Layout/Footer/Footer.vue';
-import SideBar from './Layout/SideBar.vue';
+import SideBar from './Layout/SideBar/SideBar.vue';
 import Promo from './Layout/Promo.vue';
 import SearchBar from './Layout/SearchBar/SearchBar.vue';
 
@@ -24,6 +24,7 @@ export default {
 };
 </script>
 
+<style lang="scss" src="./style.scss" />
 
 <style lang="scss">
 #app {
