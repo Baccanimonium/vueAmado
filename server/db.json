@@ -1,0 +1,9 @@
+{
+  "products": [
+    {
+      "img": "../../../amado/img/bg-img/1.jpg",
+      "price": "From $180",
+      "name": "Modern Chair"
+    }
+  ]
+}

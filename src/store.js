@@ -6,6 +6,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   // значения глобального хранилища
   state: {
+    isShowingSearchBar: false,
     counter: 10,
     summ: 244,
   },

@@ -24,9 +24,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'Promo'
-  };
+export default {
+  name: 'Promo',
+};
 </script>
 
 <style scoped>

@@ -32,7 +32,10 @@
                         <router-link active-class="active-router" to="/">Home</router-link>
                     </li>
                     <li class="link">
-                        <router-link active-class="active-router" to="/aa">Shop</router-link>
+                        <router-link active-class="active-router" to="/task">Shop</router-link>
+                    </li>
+                    <li class="link">
+                        <router-link active-class="active-router" to="/task">Task</router-link>
                     </li>
                     <li class="link">
                         <router-link active-class="active-router" to="/">Product</router-link>

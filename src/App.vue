@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <SearchBar />
-    <div>
+    <div class="main-content-wrapper">
         <SideBar />
         <router-view/>
     </div>

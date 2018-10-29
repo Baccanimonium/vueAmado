@@ -92,7 +92,7 @@ export default {
         h('span', subElement.name)
       ));
       return (
-        h('div', [element.title,subArray])
+        h('div', [element.title, subArray])
       );
     });
     return h('div', {
