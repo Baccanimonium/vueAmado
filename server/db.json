@@ -1,9 +1,49 @@
 {
-  "products": [
+  "Products": [
     {
-      "img": "../../../amado/img/bg-img/1.jpg",
+      "img": "bg-img/1.jpg",
       "price": "From $180",
       "name": "Modern Chair"
+    },
+    {
+      "img": "bg-img/2.jpg",
+      "price": "From $180",
+      "name": "Minimalistic Plant Pot"
+    },
+    {
+      "img": "bg-img/3.jpg",
+      "price": "From $180",
+      "name": "Modern Chair"
+    },
+    {
+      "img": "bg-img/4.jpg",
+      "price": "From $180",
+      "name": "Night Stand"
+    },
+    {
+      "img": "bg-img/5.jpg",
+      "price": "From $18",
+      "name": "Plant Pot"
+    },
+    {
+      "img": "bg-img/6.jpg",
+      "price": "From $320",
+      "name": "Small Table"
+    },
+    {
+      "img": "bg-img/7.jpg",
+      "price": "From $318",
+      "name": "Metallic Chair"
+    },
+    {
+      "img": "bg-img/8.jpg",
+      "price": "From $318",
+      "name": "Modern Rocking Chair"
+    },
+    {
+      "img": "bg-img/9.jpg",
+      "price": "From $318",
+      "name": "Home Deco"
     }
   ]
 }

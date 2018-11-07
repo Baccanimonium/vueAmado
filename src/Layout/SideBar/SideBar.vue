@@ -64,6 +64,7 @@
                 <router-link active-class="active-router" to="/" class="search-nav">
                     <img src="/search.png" alt=""> Search
                 </router-link>
+                <button v-on:click="toggleSearchBarState">toggle searchBar</button>
             </div>
             <!-- Social Button -->
             <div class="social-info d-flex justify-content-between">
@@ -77,6 +78,7 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex';
 
 import Fa from 'vue-fa';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
@@ -85,13 +87,15 @@ export default {
   name: 'SideBar',
   components: {
     Fa,
-
   },
   data() {
     return {
       faBook,
 
     };
+  },
+  methods: {
+    ...mapMutations(['toggleSearchBarState']),
   },
 };
 </script>
